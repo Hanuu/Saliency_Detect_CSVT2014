@@ -31,6 +31,15 @@ uiF1 = imresize(uiFeature, [scale1,scale1], 'nearest');
 uiF2 = imresize(uiFeature, [scale2,scale2], 'nearest');
 uiF3 = imresize(uiFeature, [scale3,scale3], 'nearest');
 
+%%% Let's see how the resolution becomes
+sfile11 = strcat(fname, 's1-resolution', '.png');
+sfile22 = strcat(fname, 's2-resolution', '.png');
+sfile33 = strcat(fname, 's3-resolution', '.png');
+imwrite(uiF1, sfile11);
+imwrite(uiF2, sfile22);
+imwrite(uiF3, sfile33);
+
+
 %%% Saliency calcuation at the coarse scale
 fprintf('Saliency calculation (coarse)\t'); t0=clock;
 uiSal1 = SalMeasure1(uiF1, uiComp, nBeta);
