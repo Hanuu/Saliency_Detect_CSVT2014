@@ -1,0 +1,40 @@
+for i=8:8:256
+    ifile = strcat('f0013', '.', '.jpg');
+    sfile1 = strcat(fname, i, '.png');
+    
+    uiImg = imread(ifile);
+    [iSizeH iSizeW] = size(uiImg);
+    iSizeW = iSizeW/3;
+
+    scale1 = i;
+    
+    nK       = 8;   % the number of cluster
+    nAlpha   = 15;  % parameter alpha
+    nBeta    = 300; % parameter beta
+    nEpsilon = 0.5; % parameter epsilon 
+    
+    disp(i);
+    fprintf('Feature extraction\t\t\t\t'); t0=clock; t1=clock;
+    uiFeature = FeatureExtraction(uiImg);
+    elapse = etime(clock,t0); fprintf('%.3fs elapsed\n',elapse);
+
+    %%% Compactness extraction
+    fprintf('Compactness extraction\t\t\t'); t0=clock;
+    uiComp = Compactness(uiFeature, nK, nAlpha);
+    elapse = etime(clock,t0); fprintf('%.3fs elapsed\n',elapse);
+    
+    uiF1 = imresize(uiFeature, [scale1,scale1], 'nearest');
+    
+    %%% Saliency calcuation at the medium scale
+    fprintf('Saliency calculation \t'); t0=clock;
+    uiSal2 = SalMeasure2(uiF2, uiComp, uiSal1, nBeta, nEpsilon);
+    elapse = etime(clock,t0); fprintf('%.3fs elapsed\n',elapse);
+    
+    elapse = etime(clock,t1);
+    fprintf('%.3fs elapsed totally!!\n',elapse);
+
+    uiOut1 = imresize(uiSal1, [iSizeH iSizeW], 'bicubic');
+
+	mwrite(uiOut1, sfile1);
+
+end
