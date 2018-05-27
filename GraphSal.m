@@ -35,6 +35,8 @@ uiF3 = imresize(uiFeature, [scale3,scale3], 'nearest');
 sfile11 = strcat(fname, 's1-resolution', '.png');
 sfile22 = strcat(fname, 's2-resolution', '.png');
 sfile33 = strcat(fname, 's3-resolution', '.png');
+sfile44 = strcat(fname, 'original-resolution','.png');
+imwrite(uiFeature,sfile44);
 imwrite(uiF1, sfile11);
 imwrite(uiF2, sfile22);
 imwrite(uiF3, sfile33);
