@@ -1,6 +1,7 @@
 # Saliency_Detect_CSVT2014
 
-졸업논문 Saliency 참고 코드 
+졸업논문 Saliency 참고 코드
+
 출처: [Media Communications Lab]({{https://mcl.korea.ac.kr/research_page/}})
 
 BenchmarkIMAGES: MIT 300 data set을 바탕으로 각 scale로 돌려본 결과를 담고 있습니다.
