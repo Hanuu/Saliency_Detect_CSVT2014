@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ec622b-a572-4245-a12b-9dfe569a70a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/time-scale-graph/average-time-scale-graph.png" afterPath="$PROJECT_DIR$/time-scale-graph/average-time-scale-graph.png" />
       <change beforePath="$PROJECT_DIR$/timedata_graph.py" afterPath="$PROJECT_DIR$/timedata_graph.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Saliency_Detect_CSVT2014$timedata.coverage" NAME="timedata Coverage Results" MODIFIED="1527578982059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Saliency_Detect_CSVT2014$timedata_graph.coverage" NAME="timedata_graph Coverage Results" MODIFIED="1528114867847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Saliency_Detect_CSVT2014$timedata_graph.coverage" NAME="timedata_graph Coverage Results" MODIFIED="1528115089005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
@@ -24,7 +24,7 @@
             <entry file="file://$PROJECT_DIR$/timedata.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="304">
-                  <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                  <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -52,7 +52,7 @@
             <entry file="file://$PROJECT_DIR$/timedata.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="133">
-                  <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+                  <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -61,7 +61,7 @@
           <file leaf-file-name="timedata_graph.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/timedata_graph.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
+                <state relative-caret-position="342">
                   <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
                   <folding />
                 </state>
@@ -72,7 +72,7 @@
             <entry file="file://$PROJECT_DIR$/timedata_2.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="784">
-                  <caret line="8315" column="17" lean-forward="true" selection-start-line="8315" selection-start-column="17" selection-end-line="8315" selection-end-column="17" />
+                  <caret line="8315" column="17" lean-forward="false" selection-start-line="8315" selection-start-column="17" selection-end-line="8315" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -457,7 +457,7 @@
     <entry file="file://$PROJECT_DIR$/timedata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -465,7 +465,7 @@
     <entry file="file://$PROJECT_DIR$/timedata_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
-          <caret line="8315" column="17" lean-forward="true" selection-start-line="8315" selection-start-column="17" selection-end-line="8315" selection-end-column="17" />
+          <caret line="8315" column="17" lean-forward="false" selection-start-line="8315" selection-start-column="17" selection-end-line="8315" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -482,7 +482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/timedata_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="342">
           <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding />
         </state>

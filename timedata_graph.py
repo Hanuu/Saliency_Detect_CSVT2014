@@ -41,7 +41,7 @@ with open("timedata_2.txt","r",encoding="utf8") as fr:
     for y_index in range(len(y)):
         y[y_index]/=297
     fig=plt.figure()
-    plt.title("Average Time-scale of MIT300 dataset")
+    plt.title("Average Time-Scale of MIT300 dataset")
     ax1=fig.add_subplot(111)
     ax1.set_xlabel("scale")
     ax1.plot([i for i in range(64,264,8)],y)
