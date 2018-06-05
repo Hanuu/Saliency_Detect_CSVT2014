@@ -29,7 +29,7 @@ def average_graph(i,lines,y):
         # y[iter_x]+=temp_y[iter_x]
     return y
 
-with open("timedata_2.txt","r",encoding="utf8") as fr:
+with open("timedata_2.txt","r") as fr:
     lines=fr.readlines()
     # graph_by_i(1,lines[3:28])
     y=[0 for i in range(25)]
@@ -40,6 +40,8 @@ with open("timedata_2.txt","r",encoding="utf8") as fr:
 
     for y_index in range(len(y)):
         y[y_index]/=297
+    for item in y:
+        print(str(item)[:5]+"s")
     fig=plt.figure()
     plt.title("Average Time-Scale of MIT300 dataset")
     ax1=fig.add_subplot(111)
