@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49ec622b-a572-4245-a12b-9dfe569a70a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/f0013original-resolution.png" afterPath="$PROJECT_DIR$/f0013original-resolution.png" />
-      <change beforePath="$PROJECT_DIR$/f0013s1-resolution.png" afterPath="$PROJECT_DIR$/f0013s1-resolution.png" />
-      <change beforePath="$PROJECT_DIR$/f0013s1.png" afterPath="$PROJECT_DIR$/f0013s1.png" />
-      <change beforePath="$PROJECT_DIR$/f0013s2-resolution.png" afterPath="$PROJECT_DIR$/f0013s2-resolution.png" />
-      <change beforePath="$PROJECT_DIR$/f0013s2.png" afterPath="$PROJECT_DIR$/f0013s2.png" />
-      <change beforePath="$PROJECT_DIR$/f0013s3-resolution.png" afterPath="$PROJECT_DIR$/f0013s3-resolution.png" />
-      <change beforePath="$PROJECT_DIR$/f0013s3.png" afterPath="$PROJECT_DIR$/f0013s3.png" />
-      <change beforePath="$PROJECT_DIR$/time-scale-graph/average-time-scale-graph.png" afterPath="$PROJECT_DIR$/time-scale-graph/average-time-scale-graph.png" />
-      <change beforePath="$PROJECT_DIR$/timedata_graph.py" afterPath="$PROJECT_DIR$/timedata_graph.py" />
+      <change beforePath="$PROJECT_DIR$/show_similarity.m" afterPath="$PROJECT_DIR$/show_similarity.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,13 +20,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="timedata_graph.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/timedata_graph.py">
+      <file leaf-file-name="scalefitting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scalefitting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="-128">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exponential_fitting93.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting93.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exponential_fitting96.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting96.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exponential_fitting100.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting100.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exponential_fitting136.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting136.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exponential_fitting144.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting144.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exponential_fitting242.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting242.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -112,11 +147,6 @@
               <item name="Saliency_Detect_CSVT2014" type="b2602c69:ProjectViewProjectNode" />
               <item name="Saliency_Detect_CSVT2014" type="462c0819:PsiDirectoryNode" />
               <item name="BenchmarkIMAGES" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Saliency_Detect_CSVT2014" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Saliency_Detect_CSVT2014" type="462c0819:PsiDirectoryNode" />
-              <item name="time-scale-graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,94 +346,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scalefitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5643">
-          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting121.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting122.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting123.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting126.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting130.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting132.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting128.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting124.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting120.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resolution-Compactness Time linear fitting graph.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resolution.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="118" column="9" lean-forward="true" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting119.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -425,14 +367,6 @@
     <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting294.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timedata_2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="8223" column="16" lean-forward="false" selection-start-line="8223" selection-start-column="16" selection-end-line="8223" selection-end-column="16" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/timedata.txt">
@@ -583,12 +517,111 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resolution-Compactness Time linear fitting graph.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/timedata_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="451">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/similarity_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timedata_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="8035" column="18" lean-forward="true" selection-start-line="8035" selection-start-column="18" selection-end-line="8035" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resolution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting19.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting93.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting144.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting242.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting136.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting100.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting75.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting51.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting47.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalefitting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scale-fitting-graph/exponential_fitting96.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
