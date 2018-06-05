@@ -13,7 +13,7 @@ def exponenial_func(x, a, b, c):
 with open("timedata_2.txt","r") as fr:
     lines=fr.readlines()
 
-    for i in range(165,298):
+    for i in range(1,298):
         x = [j for j in range(64,264,8)]
         y = []
         for time in range(1,26):
@@ -25,13 +25,19 @@ with open("timedata_2.txt","r") as fr:
         popt, pcov = curve_fit(exponenial_func, x, y, p0=(1, 1e-6, 1))
         xx = np.linspace(64, 256, 8)
         yy = exponenial_func(xx, *popt)
-        equation=str(popt[0])[:6]+"*"+"exp("+str(-popt[1])[:6]+"*x)"+str(popt[2])[:6]
+        if popt[2]<0:
+            equation=str(popt[0])[:6]+"*"+"exp("+str(-popt[1])[:6]+"*x)"+str(popt[2])[:6]
+        else:
+            equation = str(popt[0])[:6] + "*" + "exp(" + str(-popt[1])[:6] + "*x)+" + str(popt[2])[:6]
         print(popt)
         print(equation)
-        plt.plot(x, y, 'o', xx, yy)
-        pylab.title(str(i)+" "+equation)
-        ax = plt.gca()
-        fig = plt.gcf()
-        plt.show()
-        # py.plot_mpl(fig, filename='Exponential_Fitting_'+str(i))
-        fig.savefig("scale-fitting-graph\exponential_fitting"+str(i))
+
+        # plt.plot(x, y, 'o', xx, yy)
+        # pylab.title(str(i)+" "+equation)
+        # ax = plt.gca()
+        # fig = plt.gcf()
+        # plt.show()
+        # fig.savefig("scale-fitting-graph\exponential_fitting"+str(i))
+        with open("scale-fitting-data.txt","a") as fw:
+            fw.write(equation+'\n')
+            print(popt,equation)
