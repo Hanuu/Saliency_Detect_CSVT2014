@@ -36,9 +36,10 @@ with open("similarity_by_256.txt","r") as fr:
 
         fit=np.polyfit(x,y,1)
         fit_fn=np.poly1d(fit)
-        fig=plt.figure()
-        plt.plot(x,y,"yo",x,fit_fn(x),"--k")
+        # fig=plt.figure()
+        # plt.plot(x,y,"yo",x,fit_fn(x),"--k")
         # plt.show()
-        fig.savefig("similarity-fitting-graph/"+"MIT_"+str(i+1)+"_similarity-fitting_graph")
-
-        print(fit_fn)
+        # fig.savefig("similarity-fitting-graph/"+"MIT_"+str(i+1)+"_similarity-fitting_graph")
+        with open("similarity_by_256_data.txt","a") as fw:
+            print(fit_fn)
+            fw.write(str(fit_fn))
