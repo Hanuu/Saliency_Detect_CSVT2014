@@ -1,7 +1,0 @@
-image256 = imread('f0013256.png');
-image248 = imread('f0013248.png');
-image64 = imreag('f001364.png');
-
-score=similarity(image256,image2,1);
-
-fprintf('%f',score);
