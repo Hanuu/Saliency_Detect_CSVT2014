@@ -16,14 +16,14 @@ for i=1:92
         image2=imread(strcat('BenchmarkIMAGES\BenchmarkIMAGES\',num2str(i),'-',num2str(j+8),'.png'));
 
         score=similarity(image1,image2,1);
-        fprintf('%f %f %f\n',j,j+8,score);
+        fprintf(fileID,'%f %f %f\n',j,j+8,score);
 
     end
     image1=imread(strcat('BenchmarkIMAGES\BenchmarkIMAGES\',num2str(i),'-',num2str(64),'.png'));
     image2=imread(strcat('BenchmarkIMAGES\BenchmarkIMAGES\',num2str(i),'-',num2str(256),'.png'));
 
     score=similarity(image1,image2,1);
-    fprintf('%f %f %f\n',64,256,score);
+    fprintf(fileID,'%f %f %f\n',64,256,score);
 end
 
 
